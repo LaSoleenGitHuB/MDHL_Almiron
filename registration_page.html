@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="shortcut icon" href="./assets/Imagenes/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/estilost2.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a id="index" href="./index.html">Home </a>
+            <a id="about" href="./aboutMDHL.html">About of MDLH </a>
+            <a id="rules" href="./rules.html">Rules of play</a>
+            <a id="information" href="./game_info.html">Game information</a>
+            <a id="contact" href="./contact.html">Contact </a>
+            <a id="registration" href="./registration_page.html">Registration</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Mighty Ducks Hockey League</h1>
+            <h2>REGISTRATION FORM</h2>
+            <figure>
+                <img class="imagenlogo" src="./assets/imagenes/logo.png"
+                alt="imagen hockey"/>
+            </figure>
+     
+        </section>
+    
+        
+        <form action="./show_data.html" method="get">
+            <p class="color_form">*Campo obligatorio</p>
+            <fieldset>
+                <legend>Personal Data</legend>
+                <label for="player_name">Player's First Name</label>
+                <input name="name" type="text" id="player_name">
+
+                <label>
+                    Last Name:
+                    <input required type="text" id="apellido"><span></span>
+                </label>
+                <label>
+                    Street Adress:
+                    <input name="street" type="text" id="street_adress">
+                </label>
+                <label>
+                    City:
+                    <input name="city" type="text" id="ciudad">
+                </label>
+                <label>
+                    Zip Code:
+                    <input name="zip_code" type="number" id="cod_postal">
+                </label>
+                <label>
+                    Birth Date:
+                    <input name="birth_date" type="date" id="birth" placeholder="mm/dd/yyyy">
+                </label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Gender</legend>
+                <label>
+                    Female:
+                    <input type="checkbox" name="gender" value="Female">
+                    Male:
+                    <input type="checkbox" name="gender" value="Male">
+
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Grade</legend>
+                <label>
+                    Pre-School:
+                    <input type="checkbox" name="Pre_School" value="primaria">
+                    1st:
+                    <input type="checkbox" name="1st" value="primero">
+                    2nd:
+                    <input type="checkbox" name="2st" value="segundo">
+                    3rd:
+                    <input type="checkbox" name="3rd" value="tercero">
+                    4th:
+                    <input type="checkbox" name="4th" value="cuarto">
+                    5th:
+                    <input type="checkbox" name="5th" value="quinto">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <h4>Which elementary School do you live near?</h4>
+                <h4>Closest School:</h4>
+                <label>
+                    AJ Katzenmaier:
+                    <input type="checkbox" name="AJ Katzenmaier" value="katzenmaier">
+                    Greenbay:
+                    <input type="checkbox" name="Greenbay" value="greenbay">
+                    Howard A Yeager:
+                    <input type="checkbox" name="Howard A Yeager" value="howard">
+                    Marjorie Hart:
+                    <input type="checkbox" name="Marjorie Hart" value="marjorie">
+                    North Elementary
+                    <input type="checkbox" name="North Elementary" value="north">
+                    South Elementary
+                    <input type="checkbox" name="South Elementary" value="south">
+
+                </label>
+
+                <h4>What position(s) do you normally play? (check all that apply)</h4>
+                <label>
+                    Forward
+                    <input type="checkbox" name="Forward" value="forward">
+                    Defense
+                    <input type="checkbox" name="Defense" value="defense">
+                    Midfield
+                    <input type="checkbox" name="Midfield" value="midfield">
+                    Goalkeeper
+                    <input type="checkbox" name="Goalkeeper" value="goalkeeper">
+                </label>
+                <h4>Uniform Size</h4>
+                <label>
+                    Youth Small
+                    <input type="checkbox" name="Youth Small" value="ymall">
+                    Youth Medium
+                    <input type="checkbox" name="Youth Medium" value="ymedium">
+                    Youth Large
+                    <input type="checkbox" name="Youth Large" value="ylarge">
+                    Small
+                    <input type="checkbox" name="Small" value="small">
+                    Medium
+                    <input type="checkbox" name="Medium" value="medium">
+                    Large
+                    <input type="checkbox" name="Large" value="large">
+                    Extra_large
+                    <input type="checkbox" name="Extra_large" value="e_large">
+                </label>
+            </fieldset>
+            <fieldset>
+                <h4>Permission to Play</h4>
+                <div>
+                    <p>1.The parent or guardian of the minor registrant, agree that
+                        the registrant and I will abide by all the registrant and i will abide by all the
+                        rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of 
+                        physical injury associated with hockey and in consideration for the "League" accepting
+                        the registrantfor its hockey programs and activities, I hereby release, discharge, and/or
+                        otherwise otherwise indemnify MDLH, their employees and associated personnel and volunteers,
+                        including the facilitie aused for practices and games, against any claim by or on behalf of 
+                        the registrant as a result of the registrant as a result of the registrant's participation 
+                        in the programand/orbering transported to orform MDHL sponsered activities, wich transportation
+                        By signing below, I herebyagree andauthorizethe above. In addition,by signing below, lalso
+                        acknowledge that I have read the cancellation policy and agrre to its terms.</p>
+
+                        <label>
+                            Parent/GuardianSignature:
+                            <input type="text" name="Signature" value="signature">
+                            Date:
+                            <input type="date" name="Date" value="date">
+
+
+                        </label>
+
+                    </div>
+                
+            </fieldset>
+            <input type="submit" value="submit">
+        </form>
+    <main>
+    <aside>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.780458169908!2d-87.86499864953112!3d42.32588114515078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1676629396641!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.0104181589786!2d-87.87107574953131!3d42.320976545460404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f933bce5af881%3A0x740a7a7d548adce1!2sGreen%20Bay%20School%20(Pre-K)!5e0!3m2!1ses!2sar!4v1676629760513!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </aside>
+
+</body>
+
+
+
+<footer>
+    <h4>Todos los derechos reservados ® </h4>
+</footer>
+
+</html>
