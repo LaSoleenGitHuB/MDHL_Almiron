@@ -65,12 +65,13 @@ h2{
 ol{
     width: 500px;
     display:flex;
-    background-color: aqua;
+    flex-wrap:wrap;
+    background-color: rgba(0, 229, 255, 0.245);
     border-radius: 0.8rem;
 }
 
 .rules h2, .rules ol{
-    width: 150%;
+    width: 70%;
 }
 
 li h4{
@@ -197,12 +198,21 @@ section {
 
 .imagen1{
     background-image:url("../assets/Imagenes/hockey_1.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .imagen2{
     background-image: url("../assets/Imagenes/hockey_2.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
+.imagen3{
+    background-image: url("../assets/Imagenes/hockey_3.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
 table {
     background-color: rgb(55, 106, 78);
@@ -281,13 +291,11 @@ form{
     h1{
         font-size: 20px;
     }
-
-    .imagenlogo{
-
-    }
-
-    
-    
+}
+iframe{
+    width: 20rem;
+    height:10rem;
+    border-radius: 0.7rem;
 }
 
 footer{
